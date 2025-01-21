@@ -30,7 +30,7 @@
    - Executar as migrações necessárias automaticamente
    - Carregar os dados iniciais (fixtures)
 
-   A aplicação estará disponível em `http://localhost:8000`.
+   A aplicação estará disponível em `http://localhost:8000/`.
 
 ### Executando Testes
 
@@ -98,6 +98,10 @@ Este endpoint retorna informações agregadas sobre as fazendas e gráficos de u
 
 **URL:** `/api/dashboard/`
 
+ou
+
+**URL:** `/dashboards/` # para visualizar um exemplo
+
 **Método:** `GET`
 
 **Exemplo de resposta (JSON):**
@@ -111,6 +115,8 @@ Este endpoint retorna informações agregadas sobre as fazendas e gráficos de u
 }
 ```
 
-## Conclusão
+## Infos
 
-Agora você tem o ambiente configurado e a aplicação pronta para ser utilizada. Para mais informações, consulte a documentação completa ou entre em contato com a equipe de desenvolvimento.
+Para acessar o admin: `localhost:8000/admin`
+- usuário: `admin`
+- senha: `1`
