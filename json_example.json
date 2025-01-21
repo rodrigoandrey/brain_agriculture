@@ -1,0 +1,36 @@
+{
+  "cpf": "41203492090",
+  "cnpj": "56786086000184",
+  "nome": "José da Silva",
+  "fazendas": [
+    {
+      "nome": "Fazenda Esperança",
+      "cidade": "Uberlândia",
+      "estado": "MG",
+      "area_total": 100.0,
+      "area_agricultavel": 70.0,
+      "area_vegetacao": 30.0,
+      "safras": [
+        {
+          "ano": 2021,
+          "culturas": [
+            {
+              "nome": "Soja"
+            },
+            {
+              "nome": "Milho"
+            }
+          ]
+        },
+        {
+          "ano": 2022,
+          "culturas": [
+            {
+              "nome": "Café"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

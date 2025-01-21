@@ -1,0 +1,28 @@
+Requisitos de negócio
+
+Utilize Python 3. - OK
+Utilize Django, Flask ou FastAPI. - OK (Django + Django Rest Framework)
+
+Permitir o cadastro, edição e exclusão de produtores rurais. - OK
+Validar o CPF ou CNPJ fornecido pelo usuário. - OK
+Garantir que a soma das áreas agricultável e de vegetação não ultrapasse a área total da fazenda. - OK
+Permitir o registro de várias culturas plantadas por fazenda do produtor. - OK
+Um produtor pode estar associado a 0, 1 ou mais propriedades rurais. - OK
+Uma propriedade rural pode ter 0, 1 ou mais culturas plantadas por safra. - OK
+Exibir um dashboard com:
+    Total de fazendas cadastradas (quantidade). - OK
+    Total de hectares registrados (área total). - OK
+    Gráficos de pizza:
+        Por estado. - OK
+        Por cultura plantada. - OK
+        Por uso do solo (área agricultável e vegetação). - OK
+
+Desenvolva uma API REST. - OK
+Utilize Docker para distribuir a aplicação. - OK
+Utilize Postgres como banco de dados. - OK
+Crie os endpoints necessários para atender os requisitos de negócio. - OK
+Desenvolva testes unitários e integrados. - OK
+Estruture dados "mockados" para testes. - OK
+Inclua logs para garantir a observabilidade do sistema, facilitando o monitoramento e a identificação de possíveis problemas. - OK
+Utilize um framework de ORM. - OK (DJANGO ORM)
+

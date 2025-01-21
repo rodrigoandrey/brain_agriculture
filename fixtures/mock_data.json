@@ -1,0 +1,5036 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$2Mog1eCxZEXvj453P4g2zL$UeQ+Y4kcUcZeVem8KM4gS6Muby7KTH+Hb0SFgGkgd78=",
+      "last_login": "2025-01-19T17:49:31Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "Admin",
+      "last_name": "Admin",
+      "email": "admin@example.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-01-19T16:56:42Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "produtores.produtor",
+    "pk": 1,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.294Z",
+      "updated_at": "2025-01-19T16:56:31.294Z",
+      "active_bit": true,
+      "nome": "Richard Carrillo",
+      "cpf": "49044581503",
+      "cnpj": "15278884470858"
+    }
+  },
+  {
+    "model": "produtores.produtor",
+    "pk": 2,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.416Z",
+      "updated_at": "2025-01-19T16:56:31.416Z",
+      "active_bit": true,
+      "nome": "Briana Koch",
+      "cpf": "60569716780",
+      "cnpj": "10231694788799"
+    }
+  },
+  {
+    "model": "produtores.produtor",
+    "pk": 3,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.533Z",
+      "updated_at": "2025-01-19T16:56:31.533Z",
+      "active_bit": true,
+      "nome": "Marie Cox",
+      "cpf": "26527885903",
+      "cnpj": "84066437271308"
+    }
+  },
+  {
+    "model": "produtores.produtor",
+    "pk": 4,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.652Z",
+      "updated_at": "2025-01-19T16:56:31.652Z",
+      "active_bit": true,
+      "nome": "Julian Nelson",
+      "cpf": "29169543259",
+      "cnpj": "30699729845703"
+    }
+  },
+  {
+    "model": "produtores.produtor",
+    "pk": 5,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.771Z",
+      "updated_at": "2025-01-19T16:56:31.771Z",
+      "active_bit": true,
+      "nome": "Daniel Green",
+      "cpf": "81821349865",
+      "cnpj": "93247654984278"
+    }
+  },
+  {
+    "model": "produtores.produtor",
+    "pk": 6,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.890Z",
+      "updated_at": "2025-01-19T16:56:31.890Z",
+      "active_bit": true,
+      "nome": "Julie Keller",
+      "cpf": "10915906724",
+      "cnpj": "41571262201504"
+    }
+  },
+  {
+    "model": "produtores.produtor",
+    "pk": 7,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.008Z",
+      "updated_at": "2025-01-19T16:56:32.008Z",
+      "active_bit": true,
+      "nome": "Monique Davis",
+      "cpf": "44228705723",
+      "cnpj": "65982611321439"
+    }
+  },
+  {
+    "model": "produtores.produtor",
+    "pk": 8,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.127Z",
+      "updated_at": "2025-01-19T16:56:32.127Z",
+      "active_bit": true,
+      "nome": "Daniel Middleton Jr.",
+      "cpf": "81143096363",
+      "cnpj": "96710826022273"
+    }
+  },
+  {
+    "model": "produtores.produtor",
+    "pk": 9,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.244Z",
+      "updated_at": "2025-01-19T16:56:32.244Z",
+      "active_bit": true,
+      "nome": "Cody Lopez",
+      "cpf": "17364776923",
+      "cnpj": "25686674050306"
+    }
+  },
+  {
+    "model": "produtores.produtor",
+    "pk": 10,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.365Z",
+      "updated_at": "2025-01-19T16:56:32.365Z",
+      "active_bit": true,
+      "nome": "Eric Sanchez",
+      "cpf": "11345656157",
+      "cnpj": "23508641657296"
+    }
+  },
+  {
+    "model": "produtores.produtor",
+    "pk": 12,
+    "fields": {
+      "created_at": "2025-01-19T17:04:03.639Z",
+      "updated_at": "2025-01-19T17:04:03.639Z",
+      "active_bit": true,
+      "nome": "José da Silva",
+      "cpf": "41203492090",
+      "cnpj": "56786086000184"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 1,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.298Z",
+      "updated_at": "2025-01-19T16:56:31.298Z",
+      "active_bit": true,
+      "produtor": 1,
+      "nome": "Bennett-Deleon",
+      "cidade": "Chasemouth",
+      "estado": "PR",
+      "area_total": "50.00",
+      "area_agricultavel": "44.01",
+      "area_vegetacao": "5.99"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 2,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.301Z",
+      "updated_at": "2025-01-19T16:56:31.301Z",
+      "active_bit": true,
+      "produtor": 1,
+      "nome": "Maxwell, Williams and Cruz",
+      "cidade": "Christianbury",
+      "estado": "AK",
+      "area_total": "862.00",
+      "area_agricultavel": "600.00",
+      "area_vegetacao": "262.00"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 3,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.304Z",
+      "updated_at": "2025-01-19T16:56:31.304Z",
+      "active_bit": true,
+      "produtor": 1,
+      "nome": "Wu, Mills and Sanchez",
+      "cidade": "Simmonsstad",
+      "estado": "AK",
+      "area_total": "889.00",
+      "area_agricultavel": "695.79",
+      "area_vegetacao": "193.21"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 4,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.419Z",
+      "updated_at": "2025-01-19T16:56:31.419Z",
+      "active_bit": true,
+      "produtor": 2,
+      "nome": "Padilla, Garner and Tran",
+      "cidade": "New Stephanie",
+      "estado": "KY",
+      "area_total": "207.00",
+      "area_agricultavel": "150.75",
+      "area_vegetacao": "56.25"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 5,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.422Z",
+      "updated_at": "2025-01-19T16:56:31.422Z",
+      "active_bit": true,
+      "produtor": 2,
+      "nome": "Hubbard LLC",
+      "cidade": "South Michael",
+      "estado": "PR",
+      "area_total": "306.00",
+      "area_agricultavel": "244.29",
+      "area_vegetacao": "61.71"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 6,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.425Z",
+      "updated_at": "2025-01-19T16:56:31.425Z",
+      "active_bit": true,
+      "produtor": 2,
+      "nome": "Booth-Grant",
+      "cidade": "New Antonioshire",
+      "estado": "KS",
+      "area_total": "300.00",
+      "area_agricultavel": "211.01",
+      "area_vegetacao": "88.99"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 7,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.536Z",
+      "updated_at": "2025-01-19T16:56:31.536Z",
+      "active_bit": true,
+      "produtor": 3,
+      "nome": "Thomas-Carter",
+      "cidade": "Saraport",
+      "estado": "FL",
+      "area_total": "90.00",
+      "area_agricultavel": "79.18",
+      "area_vegetacao": "10.82"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 8,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.539Z",
+      "updated_at": "2025-01-19T16:56:31.539Z",
+      "active_bit": true,
+      "produtor": 3,
+      "nome": "Sanders-Combs",
+      "cidade": "Kingfort",
+      "estado": "MS",
+      "area_total": "509.00",
+      "area_agricultavel": "434.63",
+      "area_vegetacao": "74.37"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 9,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.542Z",
+      "updated_at": "2025-01-19T16:56:31.542Z",
+      "active_bit": true,
+      "produtor": 3,
+      "nome": "Perez, Jackson and Nguyen",
+      "cidade": "North Mark",
+      "estado": "PW",
+      "area_total": "191.00",
+      "area_agricultavel": "155.20",
+      "area_vegetacao": "35.80"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 10,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.655Z",
+      "updated_at": "2025-01-19T16:56:31.655Z",
+      "active_bit": true,
+      "produtor": 4,
+      "nome": "Brown Group",
+      "cidade": "East Krista",
+      "estado": "WY",
+      "area_total": "459.00",
+      "area_agricultavel": "258.03",
+      "area_vegetacao": "200.97"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 11,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.658Z",
+      "updated_at": "2025-01-19T16:56:31.658Z",
+      "active_bit": true,
+      "produtor": 4,
+      "nome": "Banks LLC",
+      "cidade": "Campbellmouth",
+      "estado": "DC",
+      "area_total": "698.00",
+      "area_agricultavel": "501.09",
+      "area_vegetacao": "196.91"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 12,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.661Z",
+      "updated_at": "2025-01-19T16:56:31.661Z",
+      "active_bit": true,
+      "produtor": 4,
+      "nome": "Hicks and Sons",
+      "cidade": "Wisemouth",
+      "estado": "NC",
+      "area_total": "852.00",
+      "area_agricultavel": "701.39",
+      "area_vegetacao": "150.61"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 13,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.774Z",
+      "updated_at": "2025-01-19T16:56:31.774Z",
+      "active_bit": true,
+      "produtor": 5,
+      "nome": "Taylor LLC",
+      "cidade": "Jonathanborough",
+      "estado": "OK",
+      "area_total": "703.00",
+      "area_agricultavel": "583.16",
+      "area_vegetacao": "119.84"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 14,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.777Z",
+      "updated_at": "2025-01-19T16:56:31.777Z",
+      "active_bit": true,
+      "produtor": 5,
+      "nome": "Deleon, Horton and Lee",
+      "cidade": "Nathanmouth",
+      "estado": "NJ",
+      "area_total": "455.00",
+      "area_agricultavel": "401.21",
+      "area_vegetacao": "53.79"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 15,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.780Z",
+      "updated_at": "2025-01-19T16:56:31.780Z",
+      "active_bit": true,
+      "produtor": 5,
+      "nome": "Mcmillan-Gray",
+      "cidade": "Lindafort",
+      "estado": "NH",
+      "area_total": "641.00",
+      "area_agricultavel": "568.87",
+      "area_vegetacao": "72.13"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 16,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.894Z",
+      "updated_at": "2025-01-19T16:56:31.894Z",
+      "active_bit": true,
+      "produtor": 6,
+      "nome": "Cross, Martinez and Hatfield",
+      "cidade": "East Briantown",
+      "estado": "LA",
+      "area_total": "738.00",
+      "area_agricultavel": "387.88",
+      "area_vegetacao": "350.12"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 17,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.896Z",
+      "updated_at": "2025-01-19T16:56:31.896Z",
+      "active_bit": true,
+      "produtor": 6,
+      "nome": "Norton, Myers and Guerrero",
+      "cidade": "Hunthaven",
+      "estado": "TN",
+      "area_total": "627.00",
+      "area_agricultavel": "370.46",
+      "area_vegetacao": "256.54"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 18,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.899Z",
+      "updated_at": "2025-01-19T16:56:31.899Z",
+      "active_bit": true,
+      "produtor": 6,
+      "nome": "Davis-Morgan",
+      "cidade": "Maloneborough",
+      "estado": "MD",
+      "area_total": "698.00",
+      "area_agricultavel": "594.21",
+      "area_vegetacao": "103.79"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 19,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.011Z",
+      "updated_at": "2025-01-19T16:56:32.011Z",
+      "active_bit": true,
+      "produtor": 7,
+      "nome": "Jackson PLC",
+      "cidade": "New Maryberg",
+      "estado": "WA",
+      "area_total": "531.00",
+      "area_agricultavel": "294.35",
+      "area_vegetacao": "236.65"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 20,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.014Z",
+      "updated_at": "2025-01-19T16:56:32.014Z",
+      "active_bit": true,
+      "produtor": 7,
+      "nome": "Gordon Inc",
+      "cidade": "Stephaniebury",
+      "estado": "HI",
+      "area_total": "175.00",
+      "area_agricultavel": "103.79",
+      "area_vegetacao": "71.21"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 21,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.017Z",
+      "updated_at": "2025-01-19T16:56:32.017Z",
+      "active_bit": true,
+      "produtor": 7,
+      "nome": "Lee-Bruce",
+      "cidade": "North Jessica",
+      "estado": "AZ",
+      "area_total": "854.00",
+      "area_agricultavel": "724.93",
+      "area_vegetacao": "129.07"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 22,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.129Z",
+      "updated_at": "2025-01-19T16:56:32.129Z",
+      "active_bit": true,
+      "produtor": 8,
+      "nome": "Harris LLC",
+      "cidade": "Benjaminland",
+      "estado": "DC",
+      "area_total": "896.00",
+      "area_agricultavel": "580.41",
+      "area_vegetacao": "315.59"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 23,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.132Z",
+      "updated_at": "2025-01-19T16:56:32.132Z",
+      "active_bit": true,
+      "produtor": 8,
+      "nome": "Edwards-Hughes",
+      "cidade": "Frazierhaven",
+      "estado": "DE",
+      "area_total": "255.00",
+      "area_agricultavel": "212.46",
+      "area_vegetacao": "42.54"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 24,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.136Z",
+      "updated_at": "2025-01-19T16:56:32.136Z",
+      "active_bit": true,
+      "produtor": 8,
+      "nome": "Krueger-Harding",
+      "cidade": "Port Kevinton",
+      "estado": "AK",
+      "area_total": "58.00",
+      "area_agricultavel": "33.57",
+      "area_vegetacao": "24.43"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 25,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.247Z",
+      "updated_at": "2025-01-19T16:56:32.247Z",
+      "active_bit": true,
+      "produtor": 9,
+      "nome": "Gallegos and Sons",
+      "cidade": "New Brianmouth",
+      "estado": "NC",
+      "area_total": "705.00",
+      "area_agricultavel": "551.29",
+      "area_vegetacao": "153.71"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 26,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.250Z",
+      "updated_at": "2025-01-19T16:56:32.250Z",
+      "active_bit": true,
+      "produtor": 9,
+      "nome": "Torres-Perry",
+      "cidade": "New Elizabethburgh",
+      "estado": "UT",
+      "area_total": "153.00",
+      "area_agricultavel": "94.79",
+      "area_vegetacao": "58.21"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 27,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.253Z",
+      "updated_at": "2025-01-19T16:56:32.253Z",
+      "active_bit": true,
+      "produtor": 9,
+      "nome": "Wood-Cannon",
+      "cidade": "Yvonneborough",
+      "estado": "MD",
+      "area_total": "801.00",
+      "area_agricultavel": "478.09",
+      "area_vegetacao": "322.91"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 28,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.368Z",
+      "updated_at": "2025-01-19T16:56:32.368Z",
+      "active_bit": true,
+      "produtor": 10,
+      "nome": "Whitney LLC",
+      "cidade": "Matthewfort",
+      "estado": "NM",
+      "area_total": "224.00",
+      "area_agricultavel": "144.24",
+      "area_vegetacao": "79.76"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 29,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.371Z",
+      "updated_at": "2025-01-19T16:56:32.371Z",
+      "active_bit": true,
+      "produtor": 10,
+      "nome": "Berger, Mcdaniel and Murphy",
+      "cidade": "East Joshua",
+      "estado": "KS",
+      "area_total": "303.00",
+      "area_agricultavel": "220.80",
+      "area_vegetacao": "82.20"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 30,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.374Z",
+      "updated_at": "2025-01-19T16:56:32.374Z",
+      "active_bit": true,
+      "produtor": 10,
+      "nome": "Wilson Group",
+      "cidade": "Lorrainefort",
+      "estado": "MA",
+      "area_total": "732.00",
+      "area_agricultavel": "573.02",
+      "area_vegetacao": "158.98"
+    }
+  },
+  {
+    "model": "produtores.fazenda",
+    "pk": 32,
+    "fields": {
+      "created_at": "2025-01-19T17:04:03.642Z",
+      "updated_at": "2025-01-19T17:04:03.642Z",
+      "active_bit": true,
+      "produtor": 12,
+      "nome": "Fazenda Esperança",
+      "cidade": "Uberlândia",
+      "estado": "MG",
+      "area_total": "100.00",
+      "area_agricultavel": "70.00",
+      "area_vegetacao": "30.00"
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 1,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.307Z",
+      "updated_at": "2025-01-19T16:56:31.307Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1977,
+      "fazenda": 1
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 2,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.310Z",
+      "updated_at": "2025-01-19T16:56:31.310Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1981,
+      "fazenda": 1
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 3,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.313Z",
+      "updated_at": "2025-01-19T16:56:31.313Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2016,
+      "fazenda": 1
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 4,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.343Z",
+      "updated_at": "2025-01-19T16:56:31.343Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1974,
+      "fazenda": 2
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 5,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.346Z",
+      "updated_at": "2025-01-19T16:56:31.346Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1989,
+      "fazenda": 2
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 6,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.349Z",
+      "updated_at": "2025-01-19T16:56:31.349Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2024,
+      "fazenda": 2
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 7,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.380Z",
+      "updated_at": "2025-01-19T16:56:31.380Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2008,
+      "fazenda": 3
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 8,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.383Z",
+      "updated_at": "2025-01-19T16:56:31.383Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2022,
+      "fazenda": 3
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 9,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.386Z",
+      "updated_at": "2025-01-19T16:56:31.386Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1997,
+      "fazenda": 3
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 10,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.428Z",
+      "updated_at": "2025-01-19T16:56:31.428Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1992,
+      "fazenda": 4
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 11,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.431Z",
+      "updated_at": "2025-01-19T16:56:31.431Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2016,
+      "fazenda": 4
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 12,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.434Z",
+      "updated_at": "2025-01-19T16:56:31.434Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1979,
+      "fazenda": 4
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 13,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.463Z",
+      "updated_at": "2025-01-19T16:56:31.463Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2021,
+      "fazenda": 5
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 14,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.466Z",
+      "updated_at": "2025-01-19T16:56:31.466Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1976,
+      "fazenda": 5
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 15,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.469Z",
+      "updated_at": "2025-01-19T16:56:31.469Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1975,
+      "fazenda": 5
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 16,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.498Z",
+      "updated_at": "2025-01-19T16:56:31.498Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1983,
+      "fazenda": 6
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 17,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.501Z",
+      "updated_at": "2025-01-19T16:56:31.501Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1991,
+      "fazenda": 6
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 18,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.504Z",
+      "updated_at": "2025-01-19T16:56:31.504Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1985,
+      "fazenda": 6
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 19,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.545Z",
+      "updated_at": "2025-01-19T16:56:31.545Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1977,
+      "fazenda": 7
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 20,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.548Z",
+      "updated_at": "2025-01-19T16:56:31.548Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1996,
+      "fazenda": 7
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 21,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.552Z",
+      "updated_at": "2025-01-19T16:56:31.552Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1990,
+      "fazenda": 7
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 22,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.581Z",
+      "updated_at": "2025-01-19T16:56:31.581Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1988,
+      "fazenda": 8
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 23,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.584Z",
+      "updated_at": "2025-01-19T16:56:31.584Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2014,
+      "fazenda": 8
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 24,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.587Z",
+      "updated_at": "2025-01-19T16:56:31.587Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1976,
+      "fazenda": 8
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 25,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.616Z",
+      "updated_at": "2025-01-19T16:56:31.616Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1993,
+      "fazenda": 9
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 26,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.619Z",
+      "updated_at": "2025-01-19T16:56:31.619Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1989,
+      "fazenda": 9
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 27,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.622Z",
+      "updated_at": "2025-01-19T16:56:31.622Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2011,
+      "fazenda": 9
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 28,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.664Z",
+      "updated_at": "2025-01-19T16:56:31.664Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2019,
+      "fazenda": 10
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 29,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.667Z",
+      "updated_at": "2025-01-19T16:56:31.667Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1990,
+      "fazenda": 10
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 30,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.670Z",
+      "updated_at": "2025-01-19T16:56:31.670Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1973,
+      "fazenda": 10
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 31,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.699Z",
+      "updated_at": "2025-01-19T16:56:31.699Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1987,
+      "fazenda": 11
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 32,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.702Z",
+      "updated_at": "2025-01-19T16:56:31.702Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1995,
+      "fazenda": 11
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 33,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.705Z",
+      "updated_at": "2025-01-19T16:56:31.705Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1994,
+      "fazenda": 11
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 34,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.735Z",
+      "updated_at": "2025-01-19T16:56:31.735Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1989,
+      "fazenda": 12
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 35,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.738Z",
+      "updated_at": "2025-01-19T16:56:31.738Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2007,
+      "fazenda": 12
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 36,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.741Z",
+      "updated_at": "2025-01-19T16:56:31.741Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1984,
+      "fazenda": 12
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 37,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.783Z",
+      "updated_at": "2025-01-19T16:56:31.783Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2012,
+      "fazenda": 13
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 38,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.786Z",
+      "updated_at": "2025-01-19T16:56:31.786Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2013,
+      "fazenda": 13
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 39,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.789Z",
+      "updated_at": "2025-01-19T16:56:31.789Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1992,
+      "fazenda": 13
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 40,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.819Z",
+      "updated_at": "2025-01-19T16:56:31.819Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1987,
+      "fazenda": 14
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 41,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.822Z",
+      "updated_at": "2025-01-19T16:56:31.822Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2018,
+      "fazenda": 14
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 42,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.825Z",
+      "updated_at": "2025-01-19T16:56:31.825Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2005,
+      "fazenda": 14
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 43,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.854Z",
+      "updated_at": "2025-01-19T16:56:31.854Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1996,
+      "fazenda": 15
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 44,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.857Z",
+      "updated_at": "2025-01-19T16:56:31.857Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1978,
+      "fazenda": 15
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 45,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.860Z",
+      "updated_at": "2025-01-19T16:56:31.860Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2003,
+      "fazenda": 15
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 46,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.903Z",
+      "updated_at": "2025-01-19T16:56:31.903Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1983,
+      "fazenda": 16
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 47,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.905Z",
+      "updated_at": "2025-01-19T16:56:31.905Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2024,
+      "fazenda": 16
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 48,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.909Z",
+      "updated_at": "2025-01-19T16:56:31.909Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1981,
+      "fazenda": 16
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 49,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.938Z",
+      "updated_at": "2025-01-19T16:56:31.938Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2016,
+      "fazenda": 17
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 50,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.940Z",
+      "updated_at": "2025-01-19T16:56:31.940Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2010,
+      "fazenda": 17
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 51,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.943Z",
+      "updated_at": "2025-01-19T16:56:31.943Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1988,
+      "fazenda": 17
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 52,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.973Z",
+      "updated_at": "2025-01-19T16:56:31.973Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1982,
+      "fazenda": 18
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 53,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.976Z",
+      "updated_at": "2025-01-19T16:56:31.976Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1991,
+      "fazenda": 18
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 54,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.979Z",
+      "updated_at": "2025-01-19T16:56:31.979Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2023,
+      "fazenda": 18
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 55,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.020Z",
+      "updated_at": "2025-01-19T16:56:32.020Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2014,
+      "fazenda": 19
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 56,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.023Z",
+      "updated_at": "2025-01-19T16:56:32.023Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1989,
+      "fazenda": 19
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 57,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.026Z",
+      "updated_at": "2025-01-19T16:56:32.026Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2003,
+      "fazenda": 19
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 58,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.056Z",
+      "updated_at": "2025-01-19T16:56:32.056Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1977,
+      "fazenda": 20
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 59,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.059Z",
+      "updated_at": "2025-01-19T16:56:32.059Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2022,
+      "fazenda": 20
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 60,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.062Z",
+      "updated_at": "2025-01-19T16:56:32.062Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2013,
+      "fazenda": 20
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 61,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.091Z",
+      "updated_at": "2025-01-19T16:56:32.091Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1976,
+      "fazenda": 21
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 62,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.094Z",
+      "updated_at": "2025-01-19T16:56:32.094Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1976,
+      "fazenda": 21
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 63,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.097Z",
+      "updated_at": "2025-01-19T16:56:32.097Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2023,
+      "fazenda": 21
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 64,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.138Z",
+      "updated_at": "2025-01-19T16:56:32.138Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1984,
+      "fazenda": 22
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 65,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.141Z",
+      "updated_at": "2025-01-19T16:56:32.141Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2014,
+      "fazenda": 22
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 66,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.144Z",
+      "updated_at": "2025-01-19T16:56:32.144Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1986,
+      "fazenda": 22
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 67,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.174Z",
+      "updated_at": "2025-01-19T16:56:32.174Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1988,
+      "fazenda": 23
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 68,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.177Z",
+      "updated_at": "2025-01-19T16:56:32.177Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2019,
+      "fazenda": 23
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 69,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.180Z",
+      "updated_at": "2025-01-19T16:56:32.180Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1979,
+      "fazenda": 23
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 70,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.209Z",
+      "updated_at": "2025-01-19T16:56:32.209Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2018,
+      "fazenda": 24
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 71,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.212Z",
+      "updated_at": "2025-01-19T16:56:32.212Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2001,
+      "fazenda": 24
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 72,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.215Z",
+      "updated_at": "2025-01-19T16:56:32.215Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2020,
+      "fazenda": 24
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 73,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.256Z",
+      "updated_at": "2025-01-19T16:56:32.256Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2021,
+      "fazenda": 25
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 74,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.259Z",
+      "updated_at": "2025-01-19T16:56:32.259Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2008,
+      "fazenda": 25
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 75,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.262Z",
+      "updated_at": "2025-01-19T16:56:32.262Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1975,
+      "fazenda": 25
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 76,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.293Z",
+      "updated_at": "2025-01-19T16:56:32.293Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1995,
+      "fazenda": 26
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 77,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.296Z",
+      "updated_at": "2025-01-19T16:56:32.296Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1972,
+      "fazenda": 26
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 78,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.299Z",
+      "updated_at": "2025-01-19T16:56:32.299Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2014,
+      "fazenda": 26
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 79,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.329Z",
+      "updated_at": "2025-01-19T16:56:32.329Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2011,
+      "fazenda": 27
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 80,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.332Z",
+      "updated_at": "2025-01-19T16:56:32.332Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2004,
+      "fazenda": 27
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 81,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.335Z",
+      "updated_at": "2025-01-19T16:56:32.335Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1998,
+      "fazenda": 27
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 82,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.377Z",
+      "updated_at": "2025-01-19T16:56:32.377Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1999,
+      "fazenda": 28
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 83,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.380Z",
+      "updated_at": "2025-01-19T16:56:32.380Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1983,
+      "fazenda": 28
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 84,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.383Z",
+      "updated_at": "2025-01-19T16:56:32.383Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2012,
+      "fazenda": 28
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 85,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.413Z",
+      "updated_at": "2025-01-19T16:56:32.413Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1996,
+      "fazenda": 29
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 86,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.416Z",
+      "updated_at": "2025-01-19T16:56:32.416Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2006,
+      "fazenda": 29
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 87,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.419Z",
+      "updated_at": "2025-01-19T16:56:32.419Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2023,
+      "fazenda": 29
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 88,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.448Z",
+      "updated_at": "2025-01-19T16:56:32.448Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1986,
+      "fazenda": 30
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 89,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.451Z",
+      "updated_at": "2025-01-19T16:56:32.451Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1974,
+      "fazenda": 30
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 90,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.453Z",
+      "updated_at": "2025-01-19T16:56:32.453Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 1980,
+      "fazenda": 30
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 92,
+    "fields": {
+      "created_at": "2025-01-19T17:04:03.645Z",
+      "updated_at": "2025-01-19T17:04:03.645Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2021,
+      "fazenda": 32
+    }
+  },
+  {
+    "model": "produtores.safra",
+    "pk": 93,
+    "fields": {
+      "created_at": "2025-01-19T17:04:03.654Z",
+      "updated_at": "2025-01-19T17:04:03.654Z",
+      "active_bit": true,
+      "nome": "Safra",
+      "ano": 2022,
+      "fazenda": 32
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 1,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.316Z",
+      "updated_at": "2025-01-19T16:56:31.316Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 1,
+      "safra": 1
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 2,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.319Z",
+      "updated_at": "2025-01-19T16:56:31.319Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 1,
+      "safra": 1
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 3,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.322Z",
+      "updated_at": "2025-01-19T16:56:31.322Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 1,
+      "safra": 1
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 4,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.325Z",
+      "updated_at": "2025-01-19T16:56:31.325Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 1,
+      "safra": 2
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 5,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.328Z",
+      "updated_at": "2025-01-19T16:56:31.328Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 1,
+      "safra": 2
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 6,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.331Z",
+      "updated_at": "2025-01-19T16:56:31.331Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 1,
+      "safra": 2
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 7,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.334Z",
+      "updated_at": "2025-01-19T16:56:31.334Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 1,
+      "safra": 3
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 8,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.337Z",
+      "updated_at": "2025-01-19T16:56:31.337Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 1,
+      "safra": 3
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 9,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.340Z",
+      "updated_at": "2025-01-19T16:56:31.340Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 1,
+      "safra": 3
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 10,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.351Z",
+      "updated_at": "2025-01-19T16:56:31.352Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 2,
+      "safra": 4
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 11,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.354Z",
+      "updated_at": "2025-01-19T16:56:31.354Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 2,
+      "safra": 4
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 12,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.357Z",
+      "updated_at": "2025-01-19T16:56:31.357Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 2,
+      "safra": 4
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 13,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.361Z",
+      "updated_at": "2025-01-19T16:56:31.361Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 2,
+      "safra": 5
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 14,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.364Z",
+      "updated_at": "2025-01-19T16:56:31.364Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 2,
+      "safra": 5
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 15,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.367Z",
+      "updated_at": "2025-01-19T16:56:31.367Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 2,
+      "safra": 5
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 16,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.370Z",
+      "updated_at": "2025-01-19T16:56:31.370Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 2,
+      "safra": 6
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 17,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.373Z",
+      "updated_at": "2025-01-19T16:56:31.373Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 2,
+      "safra": 6
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 18,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.377Z",
+      "updated_at": "2025-01-19T16:56:31.377Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 2,
+      "safra": 6
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 19,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.389Z",
+      "updated_at": "2025-01-19T16:56:31.389Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 3,
+      "safra": 7
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 20,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.392Z",
+      "updated_at": "2025-01-19T16:56:31.392Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 3,
+      "safra": 7
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 21,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.395Z",
+      "updated_at": "2025-01-19T16:56:31.395Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 3,
+      "safra": 7
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 22,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.398Z",
+      "updated_at": "2025-01-19T16:56:31.398Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 3,
+      "safra": 8
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 23,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.401Z",
+      "updated_at": "2025-01-19T16:56:31.401Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 3,
+      "safra": 8
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 24,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.404Z",
+      "updated_at": "2025-01-19T16:56:31.404Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 3,
+      "safra": 8
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 25,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.407Z",
+      "updated_at": "2025-01-19T16:56:31.407Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 3,
+      "safra": 9
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 26,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.410Z",
+      "updated_at": "2025-01-19T16:56:31.410Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 3,
+      "safra": 9
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 27,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.413Z",
+      "updated_at": "2025-01-19T16:56:31.413Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 3,
+      "safra": 9
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 28,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.437Z",
+      "updated_at": "2025-01-19T16:56:31.437Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 4,
+      "safra": 10
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 29,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.439Z",
+      "updated_at": "2025-01-19T16:56:31.439Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 4,
+      "safra": 10
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 30,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.442Z",
+      "updated_at": "2025-01-19T16:56:31.442Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 4,
+      "safra": 10
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 31,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.445Z",
+      "updated_at": "2025-01-19T16:56:31.445Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 4,
+      "safra": 11
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 32,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.448Z",
+      "updated_at": "2025-01-19T16:56:31.448Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 4,
+      "safra": 11
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 33,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.451Z",
+      "updated_at": "2025-01-19T16:56:31.451Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 4,
+      "safra": 11
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 34,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.454Z",
+      "updated_at": "2025-01-19T16:56:31.454Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 4,
+      "safra": 12
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 35,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.457Z",
+      "updated_at": "2025-01-19T16:56:31.457Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 4,
+      "safra": 12
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 36,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.460Z",
+      "updated_at": "2025-01-19T16:56:31.460Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 4,
+      "safra": 12
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 37,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.472Z",
+      "updated_at": "2025-01-19T16:56:31.472Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 5,
+      "safra": 13
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 38,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.474Z",
+      "updated_at": "2025-01-19T16:56:31.474Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 5,
+      "safra": 13
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 39,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.477Z",
+      "updated_at": "2025-01-19T16:56:31.477Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 5,
+      "safra": 13
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 40,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.480Z",
+      "updated_at": "2025-01-19T16:56:31.480Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 5,
+      "safra": 14
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 41,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.483Z",
+      "updated_at": "2025-01-19T16:56:31.483Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 5,
+      "safra": 14
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 42,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.486Z",
+      "updated_at": "2025-01-19T16:56:31.486Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 5,
+      "safra": 14
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 43,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.489Z",
+      "updated_at": "2025-01-19T16:56:31.489Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 5,
+      "safra": 15
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 44,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.492Z",
+      "updated_at": "2025-01-19T16:56:31.492Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 5,
+      "safra": 15
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 45,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.495Z",
+      "updated_at": "2025-01-19T16:56:31.495Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 5,
+      "safra": 15
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 46,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.507Z",
+      "updated_at": "2025-01-19T16:56:31.507Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 6,
+      "safra": 16
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 47,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.510Z",
+      "updated_at": "2025-01-19T16:56:31.510Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 6,
+      "safra": 16
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 48,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.513Z",
+      "updated_at": "2025-01-19T16:56:31.513Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 6,
+      "safra": 16
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 49,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.516Z",
+      "updated_at": "2025-01-19T16:56:31.516Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 6,
+      "safra": 17
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 50,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.518Z",
+      "updated_at": "2025-01-19T16:56:31.518Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 6,
+      "safra": 17
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 51,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.521Z",
+      "updated_at": "2025-01-19T16:56:31.521Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 6,
+      "safra": 17
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 52,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.524Z",
+      "updated_at": "2025-01-19T16:56:31.524Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 6,
+      "safra": 18
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 53,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.527Z",
+      "updated_at": "2025-01-19T16:56:31.527Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 6,
+      "safra": 18
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 54,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.530Z",
+      "updated_at": "2025-01-19T16:56:31.530Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 6,
+      "safra": 18
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 55,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.554Z",
+      "updated_at": "2025-01-19T16:56:31.554Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 7,
+      "safra": 19
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 56,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.557Z",
+      "updated_at": "2025-01-19T16:56:31.557Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 7,
+      "safra": 19
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 57,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.560Z",
+      "updated_at": "2025-01-19T16:56:31.560Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 7,
+      "safra": 19
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 58,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.563Z",
+      "updated_at": "2025-01-19T16:56:31.563Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 7,
+      "safra": 20
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 59,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.566Z",
+      "updated_at": "2025-01-19T16:56:31.566Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 7,
+      "safra": 20
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 60,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.569Z",
+      "updated_at": "2025-01-19T16:56:31.569Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 7,
+      "safra": 20
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 61,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.572Z",
+      "updated_at": "2025-01-19T16:56:31.572Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 7,
+      "safra": 21
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 62,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.575Z",
+      "updated_at": "2025-01-19T16:56:31.575Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 7,
+      "safra": 21
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 63,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.578Z",
+      "updated_at": "2025-01-19T16:56:31.578Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 7,
+      "safra": 21
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 64,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.590Z",
+      "updated_at": "2025-01-19T16:56:31.590Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 8,
+      "safra": 22
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 65,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.593Z",
+      "updated_at": "2025-01-19T16:56:31.593Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 8,
+      "safra": 22
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 66,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.596Z",
+      "updated_at": "2025-01-19T16:56:31.596Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 8,
+      "safra": 22
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 67,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.599Z",
+      "updated_at": "2025-01-19T16:56:31.599Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 8,
+      "safra": 23
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 68,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.602Z",
+      "updated_at": "2025-01-19T16:56:31.602Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 8,
+      "safra": 23
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 69,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.605Z",
+      "updated_at": "2025-01-19T16:56:31.605Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 8,
+      "safra": 23
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 70,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.608Z",
+      "updated_at": "2025-01-19T16:56:31.608Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 8,
+      "safra": 24
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 71,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.610Z",
+      "updated_at": "2025-01-19T16:56:31.610Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 8,
+      "safra": 24
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 72,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.613Z",
+      "updated_at": "2025-01-19T16:56:31.613Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 8,
+      "safra": 24
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 73,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.625Z",
+      "updated_at": "2025-01-19T16:56:31.625Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 9,
+      "safra": 25
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 74,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.629Z",
+      "updated_at": "2025-01-19T16:56:31.629Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 9,
+      "safra": 25
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 75,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.631Z",
+      "updated_at": "2025-01-19T16:56:31.631Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 9,
+      "safra": 25
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 76,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.634Z",
+      "updated_at": "2025-01-19T16:56:31.634Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 9,
+      "safra": 26
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 77,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.637Z",
+      "updated_at": "2025-01-19T16:56:31.637Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 9,
+      "safra": 26
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 78,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.640Z",
+      "updated_at": "2025-01-19T16:56:31.640Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 9,
+      "safra": 26
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 79,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.643Z",
+      "updated_at": "2025-01-19T16:56:31.643Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 9,
+      "safra": 27
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 80,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.646Z",
+      "updated_at": "2025-01-19T16:56:31.646Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 9,
+      "safra": 27
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 81,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.649Z",
+      "updated_at": "2025-01-19T16:56:31.649Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 9,
+      "safra": 27
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 82,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.673Z",
+      "updated_at": "2025-01-19T16:56:31.673Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 10,
+      "safra": 28
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 83,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.676Z",
+      "updated_at": "2025-01-19T16:56:31.676Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 10,
+      "safra": 28
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 84,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.678Z",
+      "updated_at": "2025-01-19T16:56:31.678Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 10,
+      "safra": 28
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 85,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.681Z",
+      "updated_at": "2025-01-19T16:56:31.681Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 10,
+      "safra": 29
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 86,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.685Z",
+      "updated_at": "2025-01-19T16:56:31.685Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 10,
+      "safra": 29
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 87,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.687Z",
+      "updated_at": "2025-01-19T16:56:31.688Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 10,
+      "safra": 29
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 88,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.690Z",
+      "updated_at": "2025-01-19T16:56:31.690Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 10,
+      "safra": 30
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 89,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.693Z",
+      "updated_at": "2025-01-19T16:56:31.693Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 10,
+      "safra": 30
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 90,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.696Z",
+      "updated_at": "2025-01-19T16:56:31.696Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 10,
+      "safra": 30
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 91,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.708Z",
+      "updated_at": "2025-01-19T16:56:31.708Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 11,
+      "safra": 31
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 92,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.711Z",
+      "updated_at": "2025-01-19T16:56:31.711Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 11,
+      "safra": 31
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 93,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.714Z",
+      "updated_at": "2025-01-19T16:56:31.714Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 11,
+      "safra": 31
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 94,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.717Z",
+      "updated_at": "2025-01-19T16:56:31.717Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 11,
+      "safra": 32
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 95,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.720Z",
+      "updated_at": "2025-01-19T16:56:31.720Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 11,
+      "safra": 32
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 96,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.723Z",
+      "updated_at": "2025-01-19T16:56:31.723Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 11,
+      "safra": 32
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 97,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.726Z",
+      "updated_at": "2025-01-19T16:56:31.726Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 11,
+      "safra": 33
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 98,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.729Z",
+      "updated_at": "2025-01-19T16:56:31.729Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 11,
+      "safra": 33
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 99,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.732Z",
+      "updated_at": "2025-01-19T16:56:31.732Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 11,
+      "safra": 33
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 100,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.744Z",
+      "updated_at": "2025-01-19T16:56:31.744Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 12,
+      "safra": 34
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 101,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.747Z",
+      "updated_at": "2025-01-19T16:56:31.747Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 12,
+      "safra": 34
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 102,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.750Z",
+      "updated_at": "2025-01-19T16:56:31.750Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 12,
+      "safra": 34
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 103,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.753Z",
+      "updated_at": "2025-01-19T16:56:31.753Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 12,
+      "safra": 35
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 104,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.756Z",
+      "updated_at": "2025-01-19T16:56:31.756Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 12,
+      "safra": 35
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 105,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.758Z",
+      "updated_at": "2025-01-19T16:56:31.758Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 12,
+      "safra": 35
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 106,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.762Z",
+      "updated_at": "2025-01-19T16:56:31.762Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 12,
+      "safra": 36
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 107,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.765Z",
+      "updated_at": "2025-01-19T16:56:31.765Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 12,
+      "safra": 36
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 108,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.768Z",
+      "updated_at": "2025-01-19T16:56:31.768Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 12,
+      "safra": 36
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 109,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.792Z",
+      "updated_at": "2025-01-19T16:56:31.792Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 13,
+      "safra": 37
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 110,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.795Z",
+      "updated_at": "2025-01-19T16:56:31.795Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 13,
+      "safra": 37
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 111,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.798Z",
+      "updated_at": "2025-01-19T16:56:31.798Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 13,
+      "safra": 37
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 112,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.801Z",
+      "updated_at": "2025-01-19T16:56:31.801Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 13,
+      "safra": 38
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 113,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.804Z",
+      "updated_at": "2025-01-19T16:56:31.804Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 13,
+      "safra": 38
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 114,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.807Z",
+      "updated_at": "2025-01-19T16:56:31.807Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 13,
+      "safra": 38
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 115,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.810Z",
+      "updated_at": "2025-01-19T16:56:31.810Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 13,
+      "safra": 39
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 116,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.813Z",
+      "updated_at": "2025-01-19T16:56:31.813Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 13,
+      "safra": 39
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 117,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.816Z",
+      "updated_at": "2025-01-19T16:56:31.816Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 13,
+      "safra": 39
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 118,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.828Z",
+      "updated_at": "2025-01-19T16:56:31.828Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 14,
+      "safra": 40
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 119,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.831Z",
+      "updated_at": "2025-01-19T16:56:31.831Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 14,
+      "safra": 40
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 120,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.834Z",
+      "updated_at": "2025-01-19T16:56:31.834Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 14,
+      "safra": 40
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 121,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.837Z",
+      "updated_at": "2025-01-19T16:56:31.837Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 14,
+      "safra": 41
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 122,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.840Z",
+      "updated_at": "2025-01-19T16:56:31.840Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 14,
+      "safra": 41
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 123,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.843Z",
+      "updated_at": "2025-01-19T16:56:31.843Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 14,
+      "safra": 41
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 124,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.845Z",
+      "updated_at": "2025-01-19T16:56:31.845Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 14,
+      "safra": 42
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 125,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.848Z",
+      "updated_at": "2025-01-19T16:56:31.848Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 14,
+      "safra": 42
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 126,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.851Z",
+      "updated_at": "2025-01-19T16:56:31.851Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 14,
+      "safra": 42
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 127,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.863Z",
+      "updated_at": "2025-01-19T16:56:31.863Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 15,
+      "safra": 43
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 128,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.866Z",
+      "updated_at": "2025-01-19T16:56:31.866Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 15,
+      "safra": 43
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 129,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.869Z",
+      "updated_at": "2025-01-19T16:56:31.869Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 15,
+      "safra": 43
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 130,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.871Z",
+      "updated_at": "2025-01-19T16:56:31.871Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 15,
+      "safra": 44
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 131,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.874Z",
+      "updated_at": "2025-01-19T16:56:31.874Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 15,
+      "safra": 44
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 132,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.877Z",
+      "updated_at": "2025-01-19T16:56:31.877Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 15,
+      "safra": 44
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 133,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.880Z",
+      "updated_at": "2025-01-19T16:56:31.880Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 15,
+      "safra": 45
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 134,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.883Z",
+      "updated_at": "2025-01-19T16:56:31.883Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 15,
+      "safra": 45
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 135,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.886Z",
+      "updated_at": "2025-01-19T16:56:31.886Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 15,
+      "safra": 45
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 136,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.912Z",
+      "updated_at": "2025-01-19T16:56:31.912Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 16,
+      "safra": 46
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 137,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.915Z",
+      "updated_at": "2025-01-19T16:56:31.915Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 16,
+      "safra": 46
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 138,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.918Z",
+      "updated_at": "2025-01-19T16:56:31.918Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 16,
+      "safra": 46
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 139,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.921Z",
+      "updated_at": "2025-01-19T16:56:31.921Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 16,
+      "safra": 47
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 140,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.924Z",
+      "updated_at": "2025-01-19T16:56:31.924Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 16,
+      "safra": 47
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 141,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.927Z",
+      "updated_at": "2025-01-19T16:56:31.927Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 16,
+      "safra": 47
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 142,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.930Z",
+      "updated_at": "2025-01-19T16:56:31.930Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 16,
+      "safra": 48
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 143,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.933Z",
+      "updated_at": "2025-01-19T16:56:31.933Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 16,
+      "safra": 48
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 144,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.935Z",
+      "updated_at": "2025-01-19T16:56:31.936Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 16,
+      "safra": 48
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 145,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.946Z",
+      "updated_at": "2025-01-19T16:56:31.946Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 17,
+      "safra": 49
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 146,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.949Z",
+      "updated_at": "2025-01-19T16:56:31.949Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 17,
+      "safra": 49
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 147,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.952Z",
+      "updated_at": "2025-01-19T16:56:31.952Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 17,
+      "safra": 49
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 148,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.955Z",
+      "updated_at": "2025-01-19T16:56:31.955Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 17,
+      "safra": 50
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 149,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.958Z",
+      "updated_at": "2025-01-19T16:56:31.958Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 17,
+      "safra": 50
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 150,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.961Z",
+      "updated_at": "2025-01-19T16:56:31.961Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 17,
+      "safra": 50
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 151,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.964Z",
+      "updated_at": "2025-01-19T16:56:31.964Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 17,
+      "safra": 51
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 152,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.967Z",
+      "updated_at": "2025-01-19T16:56:31.967Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 17,
+      "safra": 51
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 153,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.970Z",
+      "updated_at": "2025-01-19T16:56:31.970Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 17,
+      "safra": 51
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 154,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.982Z",
+      "updated_at": "2025-01-19T16:56:31.982Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 18,
+      "safra": 52
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 155,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.985Z",
+      "updated_at": "2025-01-19T16:56:31.985Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 18,
+      "safra": 52
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 156,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.988Z",
+      "updated_at": "2025-01-19T16:56:31.988Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 18,
+      "safra": 52
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 157,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.991Z",
+      "updated_at": "2025-01-19T16:56:31.991Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 18,
+      "safra": 53
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 158,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.994Z",
+      "updated_at": "2025-01-19T16:56:31.994Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 18,
+      "safra": 53
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 159,
+    "fields": {
+      "created_at": "2025-01-19T16:56:31.997Z",
+      "updated_at": "2025-01-19T16:56:31.997Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 18,
+      "safra": 53
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 160,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.000Z",
+      "updated_at": "2025-01-19T16:56:32.000Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 18,
+      "safra": 54
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 161,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.002Z",
+      "updated_at": "2025-01-19T16:56:32.002Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 18,
+      "safra": 54
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 162,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.005Z",
+      "updated_at": "2025-01-19T16:56:32.005Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 18,
+      "safra": 54
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 163,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.030Z",
+      "updated_at": "2025-01-19T16:56:32.030Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 19,
+      "safra": 55
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 164,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.032Z",
+      "updated_at": "2025-01-19T16:56:32.032Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 19,
+      "safra": 55
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 165,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.035Z",
+      "updated_at": "2025-01-19T16:56:32.035Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 19,
+      "safra": 55
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 166,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.038Z",
+      "updated_at": "2025-01-19T16:56:32.038Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 19,
+      "safra": 56
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 167,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.041Z",
+      "updated_at": "2025-01-19T16:56:32.041Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 19,
+      "safra": 56
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 168,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.044Z",
+      "updated_at": "2025-01-19T16:56:32.044Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 19,
+      "safra": 56
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 169,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.047Z",
+      "updated_at": "2025-01-19T16:56:32.047Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 19,
+      "safra": 57
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 170,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.050Z",
+      "updated_at": "2025-01-19T16:56:32.050Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 19,
+      "safra": 57
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 171,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.053Z",
+      "updated_at": "2025-01-19T16:56:32.053Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 19,
+      "safra": 57
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 172,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.065Z",
+      "updated_at": "2025-01-19T16:56:32.065Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 20,
+      "safra": 58
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 173,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.068Z",
+      "updated_at": "2025-01-19T16:56:32.068Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 20,
+      "safra": 58
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 174,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.071Z",
+      "updated_at": "2025-01-19T16:56:32.071Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 20,
+      "safra": 58
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 175,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.074Z",
+      "updated_at": "2025-01-19T16:56:32.074Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 20,
+      "safra": 59
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 176,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.077Z",
+      "updated_at": "2025-01-19T16:56:32.077Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 20,
+      "safra": 59
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 177,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.079Z",
+      "updated_at": "2025-01-19T16:56:32.079Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 20,
+      "safra": 59
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 178,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.082Z",
+      "updated_at": "2025-01-19T16:56:32.082Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 20,
+      "safra": 60
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 179,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.085Z",
+      "updated_at": "2025-01-19T16:56:32.085Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 20,
+      "safra": 60
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 180,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.088Z",
+      "updated_at": "2025-01-19T16:56:32.088Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 20,
+      "safra": 60
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 181,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.100Z",
+      "updated_at": "2025-01-19T16:56:32.100Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 21,
+      "safra": 61
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 182,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.103Z",
+      "updated_at": "2025-01-19T16:56:32.103Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 21,
+      "safra": 61
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 183,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.106Z",
+      "updated_at": "2025-01-19T16:56:32.106Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 21,
+      "safra": 61
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 184,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.109Z",
+      "updated_at": "2025-01-19T16:56:32.109Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 21,
+      "safra": 62
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 185,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.112Z",
+      "updated_at": "2025-01-19T16:56:32.112Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 21,
+      "safra": 62
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 186,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.115Z",
+      "updated_at": "2025-01-19T16:56:32.115Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 21,
+      "safra": 62
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 187,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.118Z",
+      "updated_at": "2025-01-19T16:56:32.118Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 21,
+      "safra": 63
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 188,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.121Z",
+      "updated_at": "2025-01-19T16:56:32.121Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 21,
+      "safra": 63
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 189,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.124Z",
+      "updated_at": "2025-01-19T16:56:32.124Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 21,
+      "safra": 63
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 190,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.147Z",
+      "updated_at": "2025-01-19T16:56:32.147Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 22,
+      "safra": 64
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 191,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.150Z",
+      "updated_at": "2025-01-19T16:56:32.150Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 22,
+      "safra": 64
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 192,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.154Z",
+      "updated_at": "2025-01-19T16:56:32.154Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 22,
+      "safra": 64
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 193,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.157Z",
+      "updated_at": "2025-01-19T16:56:32.157Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 22,
+      "safra": 65
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 194,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.159Z",
+      "updated_at": "2025-01-19T16:56:32.159Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 22,
+      "safra": 65
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 195,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.162Z",
+      "updated_at": "2025-01-19T16:56:32.162Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 22,
+      "safra": 65
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 196,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.165Z",
+      "updated_at": "2025-01-19T16:56:32.165Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 22,
+      "safra": 66
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 197,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.168Z",
+      "updated_at": "2025-01-19T16:56:32.168Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 22,
+      "safra": 66
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 198,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.171Z",
+      "updated_at": "2025-01-19T16:56:32.171Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 22,
+      "safra": 66
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 199,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.183Z",
+      "updated_at": "2025-01-19T16:56:32.183Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 23,
+      "safra": 67
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 200,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.186Z",
+      "updated_at": "2025-01-19T16:56:32.186Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 23,
+      "safra": 67
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 201,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.189Z",
+      "updated_at": "2025-01-19T16:56:32.189Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 23,
+      "safra": 67
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 202,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.192Z",
+      "updated_at": "2025-01-19T16:56:32.192Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 23,
+      "safra": 68
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 203,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.195Z",
+      "updated_at": "2025-01-19T16:56:32.195Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 23,
+      "safra": 68
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 204,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.198Z",
+      "updated_at": "2025-01-19T16:56:32.198Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 23,
+      "safra": 68
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 205,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.200Z",
+      "updated_at": "2025-01-19T16:56:32.200Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 23,
+      "safra": 69
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 206,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.203Z",
+      "updated_at": "2025-01-19T16:56:32.203Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 23,
+      "safra": 69
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 207,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.206Z",
+      "updated_at": "2025-01-19T16:56:32.206Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 23,
+      "safra": 69
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 208,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.218Z",
+      "updated_at": "2025-01-19T16:56:32.218Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 24,
+      "safra": 70
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 209,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.221Z",
+      "updated_at": "2025-01-19T16:56:32.221Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 24,
+      "safra": 70
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 210,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.224Z",
+      "updated_at": "2025-01-19T16:56:32.224Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 24,
+      "safra": 70
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 211,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.227Z",
+      "updated_at": "2025-01-19T16:56:32.227Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 24,
+      "safra": 71
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 212,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.230Z",
+      "updated_at": "2025-01-19T16:56:32.230Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 24,
+      "safra": 71
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 213,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.233Z",
+      "updated_at": "2025-01-19T16:56:32.233Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 24,
+      "safra": 71
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 214,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.236Z",
+      "updated_at": "2025-01-19T16:56:32.236Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 24,
+      "safra": 72
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 215,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.238Z",
+      "updated_at": "2025-01-19T16:56:32.238Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 24,
+      "safra": 72
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 216,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.241Z",
+      "updated_at": "2025-01-19T16:56:32.241Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 24,
+      "safra": 72
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 217,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.265Z",
+      "updated_at": "2025-01-19T16:56:32.265Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 25,
+      "safra": 73
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 218,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.268Z",
+      "updated_at": "2025-01-19T16:56:32.268Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 25,
+      "safra": 73
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 219,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.271Z",
+      "updated_at": "2025-01-19T16:56:32.271Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 25,
+      "safra": 73
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 220,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.275Z",
+      "updated_at": "2025-01-19T16:56:32.275Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 25,
+      "safra": 74
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 221,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.278Z",
+      "updated_at": "2025-01-19T16:56:32.278Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 25,
+      "safra": 74
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 222,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.281Z",
+      "updated_at": "2025-01-19T16:56:32.281Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 25,
+      "safra": 74
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 223,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.284Z",
+      "updated_at": "2025-01-19T16:56:32.284Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 25,
+      "safra": 75
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 224,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.287Z",
+      "updated_at": "2025-01-19T16:56:32.287Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 25,
+      "safra": 75
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 225,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.290Z",
+      "updated_at": "2025-01-19T16:56:32.290Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 25,
+      "safra": 75
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 226,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.302Z",
+      "updated_at": "2025-01-19T16:56:32.302Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 26,
+      "safra": 76
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 227,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.305Z",
+      "updated_at": "2025-01-19T16:56:32.305Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 26,
+      "safra": 76
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 228,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.308Z",
+      "updated_at": "2025-01-19T16:56:32.308Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 26,
+      "safra": 76
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 229,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.311Z",
+      "updated_at": "2025-01-19T16:56:32.311Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 26,
+      "safra": 77
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 230,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.314Z",
+      "updated_at": "2025-01-19T16:56:32.314Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 26,
+      "safra": 77
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 231,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.317Z",
+      "updated_at": "2025-01-19T16:56:32.317Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 26,
+      "safra": 77
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 232,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.320Z",
+      "updated_at": "2025-01-19T16:56:32.320Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 26,
+      "safra": 78
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 233,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.323Z",
+      "updated_at": "2025-01-19T16:56:32.323Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 26,
+      "safra": 78
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 234,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.326Z",
+      "updated_at": "2025-01-19T16:56:32.326Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 26,
+      "safra": 78
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 235,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.338Z",
+      "updated_at": "2025-01-19T16:56:32.338Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 27,
+      "safra": 79
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 236,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.341Z",
+      "updated_at": "2025-01-19T16:56:32.341Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 27,
+      "safra": 79
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 237,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.344Z",
+      "updated_at": "2025-01-19T16:56:32.344Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 27,
+      "safra": 79
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 238,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.346Z",
+      "updated_at": "2025-01-19T16:56:32.346Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 27,
+      "safra": 80
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 239,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.349Z",
+      "updated_at": "2025-01-19T16:56:32.349Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 27,
+      "safra": 80
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 240,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.352Z",
+      "updated_at": "2025-01-19T16:56:32.352Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 27,
+      "safra": 80
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 241,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.355Z",
+      "updated_at": "2025-01-19T16:56:32.355Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 27,
+      "safra": 81
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 242,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.358Z",
+      "updated_at": "2025-01-19T16:56:32.358Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 27,
+      "safra": 81
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 243,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.362Z",
+      "updated_at": "2025-01-19T16:56:32.362Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 27,
+      "safra": 81
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 244,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.386Z",
+      "updated_at": "2025-01-19T16:56:32.386Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 28,
+      "safra": 82
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 245,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.389Z",
+      "updated_at": "2025-01-19T16:56:32.389Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 28,
+      "safra": 82
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 246,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.392Z",
+      "updated_at": "2025-01-19T16:56:32.392Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 28,
+      "safra": 82
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 247,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.395Z",
+      "updated_at": "2025-01-19T16:56:32.395Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 28,
+      "safra": 83
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 248,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.398Z",
+      "updated_at": "2025-01-19T16:56:32.398Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 28,
+      "safra": 83
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 249,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.401Z",
+      "updated_at": "2025-01-19T16:56:32.401Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 28,
+      "safra": 83
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 250,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.404Z",
+      "updated_at": "2025-01-19T16:56:32.404Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 28,
+      "safra": 84
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 251,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.407Z",
+      "updated_at": "2025-01-19T16:56:32.407Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 28,
+      "safra": 84
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 252,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.410Z",
+      "updated_at": "2025-01-19T16:56:32.410Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 28,
+      "safra": 84
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 253,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.421Z",
+      "updated_at": "2025-01-19T16:56:32.421Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 29,
+      "safra": 85
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 254,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.424Z",
+      "updated_at": "2025-01-19T16:56:32.424Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 29,
+      "safra": 85
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 255,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.427Z",
+      "updated_at": "2025-01-19T16:56:32.427Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 29,
+      "safra": 85
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 256,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.430Z",
+      "updated_at": "2025-01-19T16:56:32.430Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 29,
+      "safra": 86
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 257,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.433Z",
+      "updated_at": "2025-01-19T16:56:32.433Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 29,
+      "safra": 86
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 258,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.436Z",
+      "updated_at": "2025-01-19T16:56:32.436Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 29,
+      "safra": 86
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 259,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.439Z",
+      "updated_at": "2025-01-19T16:56:32.439Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 29,
+      "safra": 87
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 260,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.442Z",
+      "updated_at": "2025-01-19T16:56:32.442Z",
+      "active_bit": true,
+      "nome": "Trigo",
+      "fazenda": 29,
+      "safra": 87
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 261,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.445Z",
+      "updated_at": "2025-01-19T16:56:32.445Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 29,
+      "safra": 87
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 262,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.456Z",
+      "updated_at": "2025-01-19T16:56:32.456Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 30,
+      "safra": 88
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 263,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.459Z",
+      "updated_at": "2025-01-19T16:56:32.459Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 30,
+      "safra": 88
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 264,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.462Z",
+      "updated_at": "2025-01-19T16:56:32.462Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 30,
+      "safra": 88
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 265,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.465Z",
+      "updated_at": "2025-01-19T16:56:32.465Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 30,
+      "safra": 89
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 266,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.468Z",
+      "updated_at": "2025-01-19T16:56:32.468Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 30,
+      "safra": 89
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 267,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.471Z",
+      "updated_at": "2025-01-19T16:56:32.471Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 30,
+      "safra": 89
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 268,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.474Z",
+      "updated_at": "2025-01-19T16:56:32.474Z",
+      "active_bit": true,
+      "nome": "Algodão",
+      "fazenda": 30,
+      "safra": 90
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 269,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.477Z",
+      "updated_at": "2025-01-19T16:56:32.477Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 30,
+      "safra": 90
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 270,
+    "fields": {
+      "created_at": "2025-01-19T16:56:32.480Z",
+      "updated_at": "2025-01-19T16:56:32.480Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 30,
+      "safra": 90
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 271,
+    "fields": {
+      "created_at": "2025-01-19T17:04:03.648Z",
+      "updated_at": "2025-01-19T17:04:03.648Z",
+      "active_bit": true,
+      "nome": "Soja",
+      "fazenda": 32,
+      "safra": 92
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 272,
+    "fields": {
+      "created_at": "2025-01-19T17:04:03.652Z",
+      "updated_at": "2025-01-19T17:04:03.652Z",
+      "active_bit": true,
+      "nome": "Milho",
+      "fazenda": 32,
+      "safra": 92
+    }
+  },
+  {
+    "model": "produtores.cultura",
+    "pk": 273,
+    "fields": {
+      "created_at": "2025-01-19T17:04:03.657Z",
+      "updated_at": "2025-01-19T17:04:03.657Z",
+      "active_bit": true,
+      "nome": "Café",
+      "fazenda": 32,
+      "safra": 93
+    }
+  },
+  {
+    "model": "sites.site",
+    "pk": 1,
+    "fields": {
+      "domain": "localhost:8000",
+      "name": "localhost"
+    }
+  }
+]

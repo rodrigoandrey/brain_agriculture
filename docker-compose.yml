@@ -1,0 +1,39 @@
+version: '2.3'
+
+services:
+  web:
+    build: .
+    container_name: brain_agriculture_web
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app/brain_agriculture
+    environment:
+      - DJANGO_SETTINGS_MODULE=brain_agriculture.settings
+      - DATABASE_NAME=agriculture_db
+      - DATABASE_USER=agriculture_dbuser
+      - DATABASE_HOST=db
+    depends_on:
+      db:
+        condition: service_started
+
+  db:
+    image: postgres:16
+    container_name: brain_agriculture_db
+    volumes:
+      - postgres_agriculture_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=agriculture_db
+      - POSTGRES_USER=agriculture_dbuser
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U agriculture_dbuser -d agriculture_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_agriculture_data:
+    name: brain_agriculture_postgres_data
