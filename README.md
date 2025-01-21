@@ -13,7 +13,7 @@
 
 1. Clone o repositório do projeto:
    ```bash
-   https://github.com/rodrigoandrey/agriculture.git
+   git clone https://github.com/rodrigoandrey/brain_agriculture.git
    cd brain_agriculture
    ```
 
