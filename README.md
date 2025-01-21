@@ -42,15 +42,26 @@ docker-compose exec web python manage.py test
 
 ## Endpoints
 
-### 1. Cadastro de Produtores Rurais - `/api/v1/produtores/`
+### 1. Visualização / Cadastro de Produtores Rurais - `/api/v1/produtores/`
 
 Este endpoint gerencia o cadastro de produtores rurais e está disponível através de um viewset, com suporte a todos os métodos HTTP (GET, POST, PUT, DELETE).
 
-#### Exemplo de requisição para criação de novo produtor:
+#### 1.1 Requisição para listar todos os produtores:
+
+**URL:** `/api/v1/produtores/`
+**Método:** `GET`
+
+#### 1.2 Requisição para listar 1 produtor:
+
+**URL:** `/api/v1/produtores/<int:id>/`
+
+**Método:** `GET`
+
+#### 1.3 Exemplo de requisição para criação ou atualização de novo produtor:
 
 **URL:** `/api/v1/produtores/`
 
-**Método:** `POST`
+**Método:** `POST`, `PUT`
 
 **Corpo da requisição (JSON):**
 ```json
